@@ -4,25 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "f6722c53895e4e2b",
+        "id": "ab28fc5022782918",
         "type": "tabs",
         "children": [
           {
-            "id": "fb4bd670663dc07d",
+            "id": "580d890761b1212f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "AllTrick.md",
-                "mode": "source",
-                "source": false
+                "file": "How to Mindmap as a Beginner.canvas",
+                "viewState": {
+                  "x": 514,
+                  "y": -220,
+                  "zoom": -2.051039433000466
+                }
               },
-              "icon": "lucide-file",
-              "title": "AllTrick"
+              "icon": "lucide-layout-dashboard",
+              "title": "How to Mindmap as a Beginner"
             }
           },
           {
-            "id": "ef5960901a42a39d",
+            "id": "d9357641a638642f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "86e2f1d78a2f6fb9",
@@ -183,19 +187,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb4bd670663dc07d",
+  "active": "580d890761b1212f",
   "lastOpenFiles": [
-    "How to Mindmap as a Beginner.canvas",
-    "A2 VSTEP.md",
-    "AllTrick.md",
-    "Untitled.canvas",
-    "How to Mindmap as a Beginner.md",
     "Công Nghệ Phần Mềm.md",
-    "NVIM.md",
-    "Untitled.md",
+    "How to Mindmap as a Beginner.md",
+    "How to Mindmap as a Beginner.canvas",
+    "AllTrick.md",
     "Windows.md",
+    "Untitled.md",
     "Todos.md",
     "Tài liệu thập cẩm.md",
+    "A2 VSTEP.md",
+    "Untitled.canvas",
+    "NVIM.md",
     "().md",
     "Untitled.base",
     "Ăn Vặt Shop.md",

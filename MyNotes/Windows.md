@@ -21,7 +21,7 @@
 - [x] tìm tool tạo symlink
 - [x] làm sao để chạy file Main.ank khi khởi động windows
 - [ ] chuyển .dotfiles-win sang chezmoi
-- [ ] public obsidian vault lên github
+- [x] public obsidian vault lên github
     - có thể dùng private repo
     - nhớ thêm `.gitignore`
     ```txt
@@ -38,4 +38,4 @@
     Thumbs.db
     .DS_Store
     ```
-- [ ] ádè
+- [ ] 
