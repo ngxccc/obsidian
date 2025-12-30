@@ -18,12 +18,12 @@
 - notepadplusplus
 - obs-studio
 - obsidian
-- 
 `scoop`
-(Bucket: Main)
-- chezmoi
-- git
-- bun
+scoop bucket add [main|versions|...]
+- main/chezmoi
+- main/git
+- main/bun
+- main/pyenv
 ### How to auto run autohotkey script on boot
 1. Nhấn phím `Win` + `R` để mở hộp thoại "Run". Sau đó nhập `shell:startup`
 2. Tạo shortcut cho file script đó rồi dán vào mục Startup

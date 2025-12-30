@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CaoThang/C Sharp.md",
+                "file": "CaoThang/Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C Sharp"
+              "title": "Python"
             }
           }
         ]
@@ -171,13 +171,13 @@
   },
   "active": "0aa5b4d47fe97333",
   "lastOpenFiles": [
+    "CaoThang/Node.js.md",
     "CaoThang/Python.md",
     "CaoThang/C Sharp.md",
-    "CaoThang/C Sharp.md",
+    "Windows.md",
     "Todos.md",
     "CaoThang",
     "Untitled 1.md",
-    "Windows.md",
     "Calis.md",
     "Untitled.md",
     "Tip học tập.md",
