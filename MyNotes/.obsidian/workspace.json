@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9b291a13c7708bf2",
+            "id": "5ba1b5e7825ffbd5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,16 +169,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9b291a13c7708bf2",
+  "active": "5ba1b5e7825ffbd5",
   "lastOpenFiles": [
+    "Món ăn.md",
+    "CaoThang/Python.md",
     "CaoThang/TK GDNG.md",
     "CaoThang/C Sharp.md",
     "CaoThang/Node.js.md",
     "Todos.md",
-    "CaoThang/Python.md",
     "Windows.md",
     "CaoThang",
-    "Untitled 1.md",
     "Calis.md",
     "Untitled.md",
     "Tip học tập.md",

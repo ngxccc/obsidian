@@ -94,3 +94,34 @@ for f in files:
 print(dict(files_by_ext))
 ```
 
+## Tạo Virtual Environment (venv)
+
+```powershell
+# Tạo thư mục môi trường ảo tên là .venv
+python -m venv .venv
+```
+
+### Kích hoạt (Activate)
+
+Sau khi kích hoạt, bạn sẽ thấy `(.venv)` hiện ở đầu dòng lệnh.
+
+#### Command Prompt (cmd):
+
+```powershell
+.venv\Scripts\activate.bat
+```
+
+#### PowerShell:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+_(Nếu bị lỗi policy, chạy `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` trước)._
+
+#### Git Bash (trên Windows) và Terminal trên Linux:
+
+```bash
+source .venv/Scripts/activate
+```
+
