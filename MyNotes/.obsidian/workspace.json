@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CaoThang/Python.md",
+                "file": "Cổ Chân Nhân.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "Cổ Chân Nhân"
             }
           }
         ]
@@ -171,8 +171,9 @@
   },
   "active": "5ba1b5e7825ffbd5",
   "lastOpenFiles": [
-    "Món ăn.md",
     "CaoThang/Python.md",
+    "Cổ Chân Nhân.md",
+    "Món ăn.md",
     "CaoThang/TK GDNG.md",
     "CaoThang/C Sharp.md",
     "CaoThang/Node.js.md",
@@ -203,7 +204,6 @@
     "How to Mindmap as a Beginner.md",
     "().md",
     "Untitled.base",
-    "Ăn Vặt Shop.md",
     "Resources",
     "New folder",
     "CodeSnippets"

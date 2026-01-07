@@ -125,3 +125,34 @@ _(Nếu bị lỗi policy, chạy `Set-ExecutionPolicy -ExecutionPolicy RemoteSi
 source .venv/Scripts/activate
 ```
 
+## `@dataclass` (Tự động hóa Class)
+
+- **Là gì:** Một decorator giúp tự động sinh ra các hàm `__init__`, `__repr__` (tương tự `ToString`), `__eq__` (so sánh bằng) cho class.
+
+- **Trong C++:** Nó giống như `struct` nhưng xịn hơn, hoặc một Class POJO (Plain Old Java Object) chỉ dùng để chứa dữ liệu.
+
+- **Ví dụ:**
+
+    - _Không dùng @dataclass:_ Bạn phải viết hàm `__init__(self, name, price...)` dài dòng gán từng dòng `self.name = name`.
+    
+    - _Dùng @dataclass:_ Chỉ cần khai báo biến, Python tự làm phần còn lại.
+
+## `@property` (Getter thông minh)
+
+- **Là gì:** Biến một phương thức (method) thành một thuộc tính (attribute).
+
+- **Trong C++:** Nó giống như việc bạn viết hàm `getFormattedPrice()` nhưng khi gọi thì chỉ cần viết `obj.formatted_price` (không có dấu ngoặc `()`).
+
+- **Tác dụng:**
+    
+    - Tính toán giá trị động (Computed Property) ngay khi được gọi.
+    
+    - Che giấu logic xử lý (Encapsulation). Ví dụ: `price` là số nguyên `1000000`, nhưng `formatted_price` tự động trả về string `"1.000.000 đ"`.
+
+## `@abstractmethod` (Hàm thuần ảo)
+
+- **Là gì:** Bắt buộc các class con kế thừa **PHẢI** viết lại (override) hàm này. Nếu không viết lại, Python sẽ báo lỗi ngay khi chạy.
+    
+- **Trong C++:** Chính là **Pure Virtual Function** (`virtual void search() = 0;`).
+    
+- **Tác dụng:** Đảm bảo tính nhất quán. `BaseScraper` ra lệnh: "Mọi thằng lính (GearVN, PhongVu) đều phải có hàm `search`", nhưng `search` thế nào thì tùy từng thằng.
